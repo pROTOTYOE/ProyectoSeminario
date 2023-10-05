@@ -339,6 +339,24 @@ return [
             'can'       => 'admins',
         ],
         [
+            'text'        => 'Mantenimientos',
+            'url'         => 'mantenimientos',
+            'icon'        => 'fa fa-car',
+            'can'       => 'admins',
+        ],
+        [
+            'text'        => 'Piezas',
+            'url'         => 'piezas',
+            'icon'        => 'fa fa-car',
+            'can'       => 'admins',
+        ],
+        [
+            'text'        => 'Notificaciones',
+            'url'         => 'notificaciones',
+            'icon'        => 'fa fa-car',
+            'can'       => 'admins',
+        ],
+        [
             'text'        => 'Usuarios',
             'url'         => 'dash/crud',
             'icon'        => 'fas fa-address-book',

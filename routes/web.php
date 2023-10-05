@@ -28,4 +28,6 @@ Route::middleware([
 Auth::routes();
 
 Route::resource('vehiculos', App\Http\Controllers\VehiculoController::class);
-//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::resource('mantenimientos', App\Http\Controllers\MantenimientoController::class);
+Route::resource('piezas', App\Http\Controllers\PiezaController::class);
+Route::resource('notificaciones', App\Http\Controllers\NotificacioneController::class);
